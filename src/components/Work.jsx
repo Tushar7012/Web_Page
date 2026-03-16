@@ -4,6 +4,13 @@ import { tokens } from '../tokens';
 const Work = () => {
     const projects = [
         {
+            title: "Fitness Studio AI Website",
+            description: "Custom website + AI receptionist for a boutique fitness studio. Handles class bookings, membership queries, and lead capture around the clock.",
+            tags: ["Gym", "AI Chatbot", "Website"],
+            gradient: "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
+            link: "#"
+        },
+        {
             title: "Residency Club — Hotel Website",
             description: "Direct booking site with room gallery for a boutique hotel.",
             tags: ["Hotel", "Booking"],

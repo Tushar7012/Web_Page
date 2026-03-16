@@ -1,9 +1,15 @@
 import React from 'react';
 import { tokens } from '../tokens';
-import { Bed, Coffee, Utensils } from 'lucide-react';
+import { Bed, Coffee, Utensils, Dumbbell } from 'lucide-react';
 
 const Services = () => {
     const services = [
+        {
+            icon: <Dumbbell size={32} color={tokens.colors.accent} />,
+            title: "Gyms & Fitness Studios",
+            body: "I build websites for independent gyms, CrossFit boxes, yoga studios, and boutique fitness brands. The AI handles class bookings, membership FAQs, trial sign-ups, and after-hours inquiries — so your staff isn't answering the same 10 questions all day.",
+            price: "Starting ₹12,000"
+        },
         {
             icon: <Bed size={32} color={tokens.colors.accent} />,
             title: "Hotel Websites",

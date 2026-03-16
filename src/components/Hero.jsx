@@ -33,7 +33,7 @@ const Hero = () => {
                         letterSpacing: '-2px',
                         color: tokens.colors.textPrimary
                     }}>
-                        Your business deserves to be <span style={{ color: tokens.colors.accent }}>found.</span>
+                        Websites + AI that work while you sleep
                     </h1>
                     
                     <p style={{
@@ -43,8 +43,7 @@ const Hero = () => {
                         marginBottom: '3rem',
                         lineHeight: 1.6
                     }}>
-                        I build websites for hotels, cafes, and restaurants across India. 
-                        Fast delivery. One-time payment. No tech headaches.
+                        I build websites for gyms, fitness studios, cafes, and restaurants — with an AI assistant built in that books appointments, answers member questions, and captures leads 24/7. No extra staff needed.
                     </p>
 
                     <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap' }}>

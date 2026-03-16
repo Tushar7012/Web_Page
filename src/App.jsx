@@ -6,6 +6,9 @@ import Services from './components/Services'
 import Work from './components/Work'
 import HowItWorks from './components/HowItWorks'
 import Contact from './components/Contact'
+import GymFeatures from './components/GymFeatures'
+import GymTestimonial from './components/GymTestimonial'
+import GymDemoCTA from './components/GymDemoCTA'
 import { tokens } from './tokens'
 
 function App() {
@@ -57,14 +60,17 @@ function App() {
         <Hero />
         <ProblemStats />
         <Services />
+        <GymFeatures />
         <Work />
+        <GymTestimonial />
         <HowItWorks />
+        <GymDemoCTA />
         <Contact />
       </main>
       
       <footer style={{ padding: '4rem 0', textAlign: 'center', borderTop: `1px solid ${tokens.colors.border}`, backgroundColor: '#0a0a0a' }}>
         <p style={{ color: tokens.colors.textSecondary, fontSize: '0.9rem', fontFamily: tokens.fonts.body }}>
-          &copy; 2026 Tushar Das. Websites for hotels, cafes & restaurants across India.
+          &copy; 2026 Tushar Das. Websites + AI for gyms, cafes & restaurants across India.
         </p>
       </footer>
     </div>
