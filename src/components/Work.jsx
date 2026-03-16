@@ -8,7 +8,7 @@ const Work = () => {
             description: "Custom website + AI receptionist for a boutique fitness studio. Handles class bookings, membership queries, and lead capture around the clock.",
             tags: ["Gym", "AI Chatbot", "Website"],
             gradient: "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
-            link: "#"
+            link: "https://www.visionfitness.com/eng"
         },
         {
             title: "Residency Club — Hotel Website",
